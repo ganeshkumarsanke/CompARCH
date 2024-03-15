@@ -15,7 +15,6 @@ uint32_t global_histbits;
 uint32_t pc_idx;
 uint32_t local_hist;
 
-
 void initialization() {
     for (int i = 0; i < 1024; i++) 
  {
