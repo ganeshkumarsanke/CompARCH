@@ -69,7 +69,6 @@ bool PREDICTOR::get_prediction(const branch_record_c* br, const op_state_c* os) 
 }
 
 
-
 void PREDICTOR::update_predictor(const branch_record_c* br, const op_state_c* os, bool taken) {
     
  bool local_pred;
