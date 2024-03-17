@@ -1,19 +1,18 @@
 #include "predictor.h"
 
-uint16_t local_history[1024]	={0};		
-uint16_t local_prediction[1024] ={0};	//strong not taken
-uint16_t global_prediction[4096]={0};	//strong not taken
-uint16_t choice_prediction[4096]={0};	
+uint16_t local_history[1024]	={0};
+uint16_t local_prediction[1024] ={0};
+uint16_t global_prediction[4096]={0};
+uint16_t choice_prediction[4096]={0};
 uint16_t path_history;
 
 bool PREDICTOR::get_prediction(const branch_record_c* br, const op_state_c* os) 
 {
-
-uint16_t mux_sel 		  = choice_prediction[path_history % 4096];
-uint16_t pc				  = (br->instruction_addr >> 2) % 1024;
-bool conditional_check	  = br->is_conditional;
-uint16_t local_pred_indx  = local_history[pc] % 1024;
-uint16_t path_hist_value  = path_history % 4096;
+uint16_t mux_sel 	= choice_prediction[path_history % 4096];
+uint16_t pc		= (br->instruction_addr >> 2) % 1024;
+bool conditional_check	= br->is_conditional;
+uint16_t local_pred_indx= local_history[pc] % 1024;
+uint16_t path_hist_value= path_history % 4096;
 bool prediction;
 
 if(conditional_check)
