@@ -63,12 +63,12 @@ else if (global_pred != taken && local_pred == taken)
 if (taken)
 {
         global_prediction[path_hist_value]  +=(global_prediction[path_hist_value] < 3);
-	local_prediction[local_pred_indx]	+=(local_prediction[local_pred_indx] < 7);
+	local_prediction[local_pred_indx]   +=(local_prediction[local_pred_indx] < 7);
 } 
 else
 {
 	global_prediction[path_hist_value]  -=(global_prediction[path_hist_value] > 0);	
-        local_prediction[local_pred_indx]	-=(local_prediction[local_pred_indx] > 0);
+        local_prediction[local_pred_indx]   -=(local_prediction[local_pred_indx] > 0);
 }
 local_history[pc] = (local_history[pc] << 1) | taken;
 }
