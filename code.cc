@@ -6,6 +6,7 @@ uint16_t global_prediction[4096]={0};
 uint16_t choice_prediction[4096]={0};
 uint16_t path_history;
 
+
 bool PREDICTOR::get_prediction(const branch_record_c* br, const op_state_c* os) 
 {
 uint16_t mux_sel 	= choice_prediction[path_history % 4096];
