@@ -1,0 +1,140 @@
+lingala@ruby:~/framework$  ./predictor traces/DIST-INT-1
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   196895 / 29499987 =   6.674
+total branches:                   4989048
+total cc branches:                4184792
+total predicts:                   4184792
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-INT-2
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   284454 / 29499985 =   9.643
+total branches:                   3671448
+total cc branches:                2866495
+total predicts:                   2866495
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-INT-3
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   352457 / 29499978 =  11.948
+total branches:                   4136429
+total cc branches:                3771697
+total predicts:                   3771697
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-INT-4
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    69838 / 29499960 =   2.367
+total branches:                   2432848
+total cc branches:                2069894
+total predicts:                   2069894
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-INT-5
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    11684 / 29499990 =   0.396
+total branches:                   3818636
+total cc branches:                3755315
+total predicts:                   3755315
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-FP-1
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    96267 / 29499988 =   3.263
+total branches:                   2616522
+total cc branches:                2213673
+total predicts:                   2213673
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-FP-2
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    38024 / 29499869 =   1.289
+total branches:                   1805454
+total cc branches:                1792835
+total predicts:                   1792835
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-FP-3
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    15298 / 29499978 =   0.519
+total branches:                   1573540
+total cc branches:                1546797
+total predicts:                   1546797
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-FP-4
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *     7865 / 29499976 =   0.267
+total branches:                    921402
+total cc branches:                 895842
+total predicts:                    895842
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-FP-5
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    41225 / 29499969 =   1.397
+total branches:                   2722674
+total cc branches:                2422049
+total predicts:                   2422049
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-MM-1
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   244091 / 29499979 =   8.274
+total branches:                   2784449
+total cc branches:                2229289
+total predicts:                   2229289
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-MM-2
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   322678 / 29499970 =  10.938
+total branches:                   4213315
+total cc branches:                3809780
+total predicts:                   3809780
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-MM-3
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    53116 / 29499970 =   1.801
+total branches:                   4953146
+total cc branches:                3014850
+total predicts:                   3014850
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-MM-4
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    63768 / 29499993 =   2.162
+total branches:                   5084440
+total cc branches:                4874888
+total predicts:                   4874888
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-MM-5
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   188151 / 29499791 =   6.378
+total branches:                   3406316
+total cc branches:                2563897
+total predicts:                   2563897
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-SERV-1
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   289296 / 29499316 =   9.807
+total branches:                   5607148
+total cc branches:                3660616
+total predicts:                   3660616
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-SERV-2
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   302930 / 29499198 =  10.269
+total branches:                   5443962
+total cc branches:                3537562
+total predicts:                   3537562
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-SERV-3
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   225487 / 29499817 =   7.644
+total branches:                   5358488
+total cc branches:                3811906
+total predicts:                   3811906
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-SERV-4
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   279047 / 29498081 =   9.460
+total branches:                   6299843
+total cc branches:                4266796
+total predicts:                   4266796
+*********************************************************
+lingala@ruby:~/framework$  ./predictor traces/DIST-SERV-5
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   287078 / 29497759 =   9.732
+total branches:                   6411192
+total cc branches:                4291964
+total predicts:                   4291964
+*********************************************************
