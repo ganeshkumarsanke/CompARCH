@@ -1,0 +1,140 @@
+lingala@rita:~/framework$ ./predictor traces/DIST-INT-1
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   218625 / 29499987 =   7.411
+total branches:                   4989048
+total cc branches:                4184792
+total predicts:                   4184792
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-INT-2
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   281438 / 29499985 =   9.540
+total branches:                   3671448
+total cc branches:                2866495
+total predicts:                   2866495
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-INT-3
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   374738 / 29499978 =  12.703
+total branches:                   4136429
+total cc branches:                3771697
+total predicts:                   3771697
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-INT-4
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    65733 / 29499960 =   2.228
+total branches:                   2432848
+total cc branches:                2069894
+total predicts:                   2069894
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-INT-5
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    11734 / 29499990 =   0.398
+total branches:                   3818636
+total cc branches:                3755315
+total predicts:                   3755315
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-FP-1
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    90999 / 29499988 =   3.085
+total branches:                   2616522
+total cc branches:                2213673
+total predicts:                   2213673
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-FP-2
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    33002 / 29499869 =   1.119
+total branches:                   1805454
+total cc branches:                1792835
+total predicts:                   1792835
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-FP-3
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    13941 / 29499978 =   0.473
+total branches:                   1573540
+total cc branches:                1546797
+total predicts:                   1546797
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-FP-4
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *     7830 / 29499976 =   0.265
+total branches:                    921402
+total cc branches:                 895842
+total predicts:                    895842
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-FP-5
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *     9910 / 29499969 =   0.336
+total branches:                   2722674
+total cc branches:                2422049
+total predicts:                   2422049
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-MM-1
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   236812 / 29499979 =   8.028
+total branches:                   2784449
+total cc branches:                2229289
+total predicts:                   2229289
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-MM-2
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   316634 / 29499970 =  10.733
+total branches:                   4213315
+total cc branches:                3809780
+total predicts:                   3809780
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-MM-3
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    51200 / 29499970 =   1.736
+total branches:                   4953146
+total cc branches:                3014850
+total predicts:                   3014850
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-MM-4
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *    59716 / 29499993 =   2.024
+total branches:                   5084440
+total cc branches:                4874888
+total predicts:                   4874888
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-MM-5
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   177686 / 29499791 =   6.023
+total branches:                   3406316
+total cc branches:                2563897
+total predicts:                   2563897
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-SERV-1
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   283054 / 29499316 =   9.595
+total branches:                   5607148
+total cc branches:                3660616
+total predicts:                   3660616
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-SERV-2
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   300612 / 29499198 =  10.191
+total branches:                   5443962
+total cc branches:                3537562
+total predicts:                   3537562
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-SERV-3
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   221918 / 29499817 =   7.523
+total branches:                   5358488
+total cc branches:                3811906
+total predicts:                   3811906
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-SERV-4
+^[[A*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   279601 / 29498081 =   9.479
+total branches:                   6299843
+total cc branches:                4266796
+total predicts:                   4266796
+*********************************************************
+lingala@rita:~/framework$ ./predictor traces/DIST-SERV-5
+*********************************************************
+1000*wrong_cc_predicts/total insts: 1000 *   289746 / 29497759 =   9.823
+total branches:                   6411192
+total cc branches:                4291964
+total predicts:                   4291964
+*********************************************************
